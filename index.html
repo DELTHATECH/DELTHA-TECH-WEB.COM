@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DELTHA-TECH</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="logo">
+    <img src="img/logo.jpg" alt="DELTHA-TECH Logo" style="height: 150px;vertical-align:middle;">
+    DELTHA-TECH
+  </div>
+  <nav class="nav">
+    <a href="#catalogo">Catálogo</a>
+    <a href="#accesorios">Accesorios</a>
+    <a href="#contacto">Contacto</a>
+    <button id="open-cart" class="cart-btn">Carrito (<span id="cart-count">0</span>)</button>
+  </nav>
+</header>
+<!-- Buscador general -->
+<div style="width:100%;display:flex;justify-content:center;margin:24px 0 0 0;">
+  <input id="search-global" type="text" placeholder="Buscar en todo DELTHA-TECH..." style="width:100%;max-width:500px;padding:10px 14px;border-radius:10px;border:2px solid #0ff6;font-size:1.1rem;">
+</div>
+<main>
+  <section id="hero" class="hero">
+    <h1>Celulares, accesorios y servicio técnico — DELTHA-TECH</h1>
+    <p>Precios en soles. Envíos a todo Perú.</p>
+  </section>
+  <section id="catalogo" class="catalog">
+    <h2>Catálogo — Celulares</h2>
+    <div id="products" class="products-grid"></div>
+  </section>
+  <section id="accesorios" class="catalog">
+    <h2>Accesorios</h2>
+    <div id="accessories" class="products-grid"></div>
+  </section>
+  <section id="contacto" class="contact">
+    <h2>Contáctanos</h2>
+    <ul>
+      <li>WhatsApp: 910-763-905 / 982-175-666 / 957-161-730</li>
+      <li>Email: <a href="mailto:delthatech01@gmail.com">delthatech01@gmail.com</a></li>
+      <li><a href="https://www.tiktok.com/@delthatech01?_t=ZS-8zKEuIM61TD&_r=1" target="_blank">TikTok</a></li>
+      <li><a href="https://www.facebook.com/profile.php?id=61576180470021" target="_blank">Facebook</a></li>
+      <li><a href="https://maps.app.goo.gl/V6ssdwWZ5PyicVjc9" target="_blank">Ubicación</a></li>
+      <li>Reclamos: <a href="mailto:delthatech01@gmail.com?subject=Reclamo%20DELTHA-TECH">Enviar reclamo por correo</a></li>
+    </ul>
+  </section>
+</main>
+<!-- Floating buttons -->
+<div class="float-buttons">
+  <div class="float whatsapp" id="whatsapp-floater">WhatsApp</div>
+  <div class="float soporte" id="soporte-floater">Soporte</div>
+  <div class="float tiktok" onclick="window.open('https://www.tiktok.com/@delthatech01?_t=ZS-8zKEuIM61TD&_r=1','_blank')">TikTok</div>
+  <div class="float fb" onclick="window.open('https://www.facebook.com/profile.php?id=61576180470021','_blank')">Facebook</div>
+</div>
+<!-- Cart Modal -->
+<div id="cart-modal" class="modal hidden">
+  <div class="modal-content">
+    <h3>Carrito</h3>
+    <div id="cart-items"></div>
+    <div class="cart-summary">Total: S/ <span id="cart-total">0.00</span></div>
+    <button id="checkout">Finalizar y enviar por WhatsApp</button>
+    <button id="close-cart">Cerrar</button>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

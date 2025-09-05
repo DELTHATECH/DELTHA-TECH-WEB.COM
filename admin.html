@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Admin DELTHA-TECH</title>
+<link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+<main class="admin">
+  <h1>Panel Admin — DELTHA-TECH</h1>
+  <div id="login-box">
+    <input id="admin-pass" type="password" placeholder="Contraseña de admin" />
+    <button id="login-btn" type="button">Ingresar</button>
+    <div id="login-msg" style="color:red;margin-top:8px;"></div>
+  </div>
+  <div id="admin-panel" style="display:none;">
+    <form id="product-form">
+      <input name="id" placeholder="ID (ej: s-a05)" required />
+      <input name="brand" placeholder="Marca" required />
+      <input name="model" placeholder="Modelo" required />
+      <input name="ram" placeholder="RAM" />
+      <input name="storage" placeholder="Almacenamiento" />
+      <input name="camera" placeholder="Cámara (ej: 108MP)" />
+      <input name="type" placeholder="Tipo (ej: V.8, Tipo C)" />
+      <input name="options" placeholder="Opciones (ej: 8GB,16GB,32GB)" />
+      <input name="price" type="number" placeholder="Precio" />
+      <input name="images" type="file" accept="image/*" multiple />
+      <button type="submit">Guardar producto</button>
+    </form>
+    <div id="admin-products"></div>
+  </div>
+</main>
+<script src="admin.js"></script>
+</body>
+</html>
+<!-- El archivo ya contiene el panel admin con formulario para productos y accesorios. -->

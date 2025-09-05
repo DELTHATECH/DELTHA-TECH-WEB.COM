@@ -1,0 +1,118 @@
+body {
+  background: linear-gradient(135deg, #0f2027, #2c5364 80%);
+  color: #e0e0e0;
+  font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.admin {
+  max-width: 420px;
+  margin: 48px auto;
+  background: rgba(30, 40, 60, 0.85);
+  border-radius: 18px;
+  box-shadow: 0 0 32px #00ffe7a0, 0 0 8px #222 inset;
+  padding: 32px 24px;
+  border: 2px solid #00ffe7;
+  position: relative;
+}
+
+.admin h1 {
+  text-align: center;
+  font-size: 2.1em;
+  letter-spacing: 2px;
+  color: #00ffe7;
+  text-shadow: 0 0 8px #00ffe7a0;
+  margin-bottom: 32px;
+}
+
+#login-box, #admin-panel {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input, button {
+  font-family: inherit;
+  font-size: 1em;
+  border-radius: 8px;
+  border: none;
+  padding: 12px;
+  margin-bottom: 8px;
+  background: rgba(20, 30, 40, 0.85);
+  color: #00ffe7;
+  box-shadow: 0 0 8px #00ffe7a0;
+  outline: none;
+  transition: box-shadow 0.2s, background 0.2s;
+}
+
+input:focus, button:focus {
+  box-shadow: 0 0 16px #00ffe7;
+  background: rgba(20, 30, 40, 1);
+}
+
+button {
+  background: linear-gradient(90deg, #00ffe7 0%, #007cf0 100%);
+  color: #222;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 12px #00ffe7a0;
+  transition: background 0.2s, color 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #007cf0 0%, #00ffe7 100%);
+  color: #fff;
+}
+
+#login-msg {
+  font-size: 0.95em;
+  color: #ff2e63;
+  text-shadow: 0 0 4px #ff2e63a0;
+}
+
+form#product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+#admin-products {
+  margin-top: 24px;
+  background: rgba(20, 30, 40, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 0 8px #00ffe7a0;
+  padding: 16px;
+  color: #e0e0e0;
+}
+
+/* Futuristic glowing border for file input */
+input[type="file"] {
+  border: 2px dashed #00ffe7;
+  background: rgba(20, 30, 40, 0.85);
+  color: #00ffe7;
+  box-shadow: 0 0 8px #00ffe7a0;
+}
+
+/* Add a subtle animated border effect */
+@keyframes neonGlow {
+  0%, 100% { box-shadow: 0 0 8px #00ffe7a0; }
+  50% { box-shadow: 0 0 24px #00ffe7; }
+}
+.admin, button, input:focus {
+  animation: neonGlow 2s infinite alternate;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .admin {
+    padding: 16px 6px;
+    max-width: 98vw;
+  }
+  h1 {
+    font-size: 1.3em;
+  }
+}
