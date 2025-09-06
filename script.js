@@ -35,7 +35,7 @@ const exampleProducts = [
   // MOTOROLA
   {id:'m-e15-64', brand:'MOTOROLA', model:'MOTO E15', ram:'2GB', storage:'64GB', price:385, images:['img/E15.jpeg']},
   {id:'m-g04s-64', brand:'MOTOROLA', model:'MOTO G04S', ram:'4GB', storage:'64GB', price:395, images:['img/G04S.webp']},
-  {id:'m-g05-128', brand:'MOTOROLA', model:'MOTO G05', ram:'4GB', storage:'128GB', price:495, images:['img/G05.Png']},
+  {id:'m-g05-128', brand:'MOTOROLA', model:'MOTO G05', ram:'4GB', storage:'128GB', price:495, images:['img/G05.png']},
   {id:'m-g15-256', brand:'MOTOROLA', model:'MOTO G15', ram:'4GB', storage:'256GB', price:595, images:['img/G15.jpg']},
   // ZTE
   {id:'z-a35core-32', brand:'ZTE', model:'A35 CORE', ram:'4+4GB', storage:'32GB', price:255, images:['img/A35-CORE.png']},
