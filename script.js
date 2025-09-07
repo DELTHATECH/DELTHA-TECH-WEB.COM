@@ -15,7 +15,7 @@ const exampleProducts = [
   {id:'r-a5-64', brand:'REDMI', model:'A5', ram:'3+3GB', storage:'64GB', price:385, images:['img/A5.jpg']},
   {id:'r-a5-128', brand:'REDMI', model:'A5', ram:'4+4GB', storage:'128GB', price:420, images:['img/A5-128.jpg']},
   {id:'r-13-128', brand:'REDMI', model:'13', ram:'6GB', storage:'128GB', camera:'108MP', price:545, images:['img/13.jpg']},
-  {id:'r-13x-256', brand:'REDMI', model:'13X', ram:'8GB', storage:'256GB', camera:'108MP', price:0, images:['img/13X.jpg']},
+  {id:'r-13x-256', brand:'REDMI', model:'13X', ram:'8GB', storage:'256GB', camera:'108MP', price:580, images:['img/13X.jpg']},
   {id:'r-14c-128', brand:'REDMI', model:'14C', ram:'4+4GB', storage:'128GB', camera:'50MP', price:485, images:['img/14C.jpg']},
   {id:'r-14c-256', brand:'REDMI', model:'14C', ram:'4+4GB', storage:'256GB', camera:'50MP', price:485, images:['img/14C-256.jpg']},
   {id:'r-15c-128', brand:'REDMI', model:'15C', ram:'4+4GB', storage:'128GB', camera:'50MP', price:565, images:['img/15C-128.jpg']},
@@ -25,7 +25,7 @@ const exampleProducts = [
   {id:'r-note14plus-256', brand:'REDMI', model:'NOTE 14 PRO PLUS', ram:'8GB', storage:'256GB', camera:'200MP', price:1395, images:['img/NOTE-14-PRO-PLUS.jpg']},
   // HONOR
   {id:'h-play9a-64', brand:'HONOR', model:'Play 9A', ram:'4GB', storage:'64GB', price:265, images:['img/PLAY-9A.jpg']},
-  {id:'h-play9a-126', brand:'HONOR', model:'Play 9A', ram:'4GB', storage:'126GB', price:425, images:['img/PLAY-9A-128.jpg']},
+  {id:'h-play9a-128', brand:'HONOR', model:'Play 9A', ram:'4GB', storage:'126GB', price:425, images:['img/play-9A-128.jpg']},
   {id:'h-play9c-256', brand:'HONOR', model:'Play 9C', ram:'6GB', storage:'256GB', price:555, images:['img/PLAY-9C.jpg']},
   {id:'h-x5b-64', brand:'HONOR', model:'X5B', ram:'4GB', storage:'64GB', price:275, images:['img/X5B.jpg']},
   {id:'h-x6c-256', brand:'HONOR', model:'X6C', ram:'6GB', storage:'256GB', price:565, images:['img/X6C.webp']},
