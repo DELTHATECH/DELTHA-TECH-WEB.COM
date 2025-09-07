@@ -25,7 +25,7 @@ const exampleProducts = [
   {id:'r-note14plus-256', brand:'REDMI', model:'NOTE 14 PRO PLUS', ram:'8GB', storage:'256GB', camera:'200MP', price:1395, images:['img/NOTE-14-PRO-PLUS.jpg']},
   // HONOR
   {id:'h-play9a-64', brand:'HONOR', model:'Play 9A', ram:'4GB', storage:'64GB', price:265, images:['img/PLAY-9A.jpg']},
-  {id:'h-play9a-126', brand:'HONOR', model:'Play 9A', ram:'4GB', storage:'126GB', price:425, images:['img/play-9A-128.jpg']},
+  {id:'h-play9a-126', brand:'HONOR', model:'Play 9A', ram:'4GB', storage:'126GB', price:425, images:['img/PLAY-9A-128.jpg']},
   {id:'h-play9c-256', brand:'HONOR', model:'Play 9C', ram:'6GB', storage:'256GB', price:555, images:['img/PLAY-9C.jpg']},
   {id:'h-x5b-64', brand:'HONOR', model:'X5B', ram:'4GB', storage:'64GB', price:275, images:['img/X5B.jpg']},
   {id:'h-x6c-256', brand:'HONOR', model:'X6C', ram:'6GB', storage:'256GB', price:565, images:['img/X6C.webp']},
